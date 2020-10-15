@@ -1,0 +1,100 @@
+body {
+  background-color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header {
+  display: flex;
+  justify-content: center; /*вирівнювання по центрі*/
+  align-items: center; /*Вирівнювання по центру по вертикалі*/
+  flex-direction: row; /* Вибір головної вісі (по горизонталі) */
+  background-color: white;
+  border-radius: 20px;
+  padding: 1px;
+}
+
+header .header-content {
+  /* ! тут стилі для всього, що в тегу <hedaer> з класом .title*/
+
+  justify-content: center; /* ! Блоки розміщуються по центрі*/
+  flex: 2 auto; /* ! ширина блока (відносно ширини вікна) */
+  margin: 10px; /* ! Зовнішній відступ  */
+  text-align: center; /* ! Вирівнювання шрифта по центрі  */
+  font-weight: bold; /*!Жирність шрифту*/
+  font-size: 70px; /*!Розмір шрифту*/
+  color: rgb(8, 8, 8); /*!Колір шрифту*/
+}
+header .NEWS {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /*! Сімейство шрифтів*/
+
+  font-size: 120%;
+  font-weight: lighter; /* :Жирність тексту */
+  color: rgb(236, 6, 6); /* Колір тексту */
+}
+header .logo {
+  /* ! Звернення до тегу хедер з класом лого*/
+  display: flex; /* ! застосування команди Flex-box */
+  flex: 0 1 auto; /* ! ширина блока (відносно ширини вікна) */
+}
+
+.hr-1 {
+  background-color: #000000; /*Колір лінії*/
+  border-radius: 10px; /*Радіус скруглення лінії*/
+  height: 8px; /*Товщина лінії*/
+}
+
+.kava {
+  display: flex; /* ! застосування команди Flex-box */
+  justify-content: center; /* ! Вирівнювання шрифта по вісі */
+  align-items: center; /* ! Вирівнювання шрифта по центрі  */
+  background-color: white;
+  border-radius: 20px;
+}
+
+.box-1 {
+  margin: 1px; /* ! Зовнішній відступ (до ліній)*/
+  text-align: center; /* ! Вирівнювання тексту в блоц по центру */
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /* ! Сімейство шрифтів */
+  flex: 2 auto;
+  font-size: 40px; /* ! розмір шрифтів */
+  color: rgb(2, 2, 2); /* ! колір шрифтів */
+}
+.box-2 {
+  display: flex;
+  text-align: end;
+  flex: 0 1 auto;
+  font-size: 20px;
+  color: rgb(2, 2, 2);
+}
+
+.foto {
+  display: flex; /* ! застосування команди Flex-box */
+  justify-content: center; /* ! Вирівнювання шрифта по вісі */
+  align-items: center; /* ! Вирівнювання шрифта по центрі  */
+  background-color: white;
+  border-radius: 20px;
+}
+.h-2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.im-2 {
+  margin: 30px;
+  border-radius: 8px;
+}
+div .h2-2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  text-align: center;
+  margin: 10px;
+}
+
+p.p-3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  text-align: start;
+  margin: 10px;
+}
